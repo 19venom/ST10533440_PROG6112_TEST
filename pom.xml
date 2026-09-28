@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class GamingConsoleReport {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in); 
+        // Single dimensional for the city name
+        String[] cities = {
+            "CapeTown",
+            "Port Elizabeth",
+            "Pretoria",
+        };
+        //Two-deminsional array
+        //Column 0 = Gaming console
+        //Column 1 = Consale sales total for each city
+        int[][] console = new int[3][2];
+        
+        //Get console information from the user
+        for (int i = 0 <cities length; i++) {
+            
+            System.out.print("Enter the number of PS5 for the " + cities[i] + ": ");
+            Consoles[i][0] = input.nextInt();
+            
+            System.out.print("Enter the number of XBOX for the " + cities[i] + ": ");
+            Consoles[i][1] = input.nextInt();
+            System.out.print("Enter the number of SWITCH for the " + cities[i] + ": ");
+            Consoles[i][0] = input.nextInt();
+            
+        }
+        // Display the Gaming Console report 
+        System.out.println();
+        System.out.println("----------------------------------------");
+        System.out.println("Console Sale Total For Each City");
+        System.out.println("----------------------------------------");
+        
+    
